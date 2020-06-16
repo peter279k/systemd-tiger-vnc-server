@@ -38,6 +38,7 @@ $sudo_prefix cp /tmp/tiger-vnc-server.service "/etc/systemd/system/tiger-vnc-ser
 $sudo_prefix systemctl daemon-reload
 $sudo_prefix systemctl enable --now "tiger-vnc-server@:1.service"
 service_status=$($sudo_prefix systemctl is-enabled "tiger-vnc-server@:1.service")
+$sudo_prefix systemctl status --no-pager "tiger-vnc-server@:1.service"
 
 if [[ ${service_status} != 'enabled' ]]; then
     echo "${service_status}, service status is not enabled..."
