@@ -14,3 +14,4 @@
 - https://linuxize.com/post/how-to-install-and-configure-vnc-on-ubuntu-18-04/
 - https://gist.github.com/spinxz/1692ff042a7cfd17583b
 - https://gist.github.com/plembo/87a429f3bd1f95d4ec59b2ce8ce0a04d
+- https://www.journaldev.com/34074/install-tigervnc-on-ubuntu
