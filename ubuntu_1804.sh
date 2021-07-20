@@ -7,7 +7,7 @@ fi;
 
 $sudo_prefix apt-get update
 $sudo_prefix apt-get install -y xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils
-$sudo_prefix apt-get install -y tigervnc-standalone-server tigervnc-common autocutsel net-tools
+$sudo_prefix apt-get install -y tigervnc-standalone-server tigervnc-common tigervnc-scraping-server tigervnc-xorg-extension autocutsel net-tools
 
 echo "Please set a VNC Password for this ${USER}..."
 vncserver
